@@ -1,0 +1,12 @@
+.header {
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.option {
+	cursor: pointer;
+}
+
+.section{
+	display: flex;
+}
