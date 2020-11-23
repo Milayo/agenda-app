@@ -7,6 +7,24 @@
 	cursor: pointer;
 }
 
-.section{
+.section {
 	display: flex;
+}
+
+@media screen and (max-width: 499px) {
+	.header {
+		width: 100vw;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+	.header {
+		width: 173vw;
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1499px) {
+	.header {
+		width: 100%;
+	}
 }

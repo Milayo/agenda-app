@@ -12,10 +12,6 @@ import "./homepage.styles.css";
 import { withRouter } from "react-router-dom";
 import firebase from "./../firebase/firebase.utils.jsx";
 
-const HomePageStyles = {
-  marginTop: "150px",
-  marginLeft: "450px",
-};
 
 const HomePage = (props) => {
   const [userCredentials, setCredentials] = useState({
@@ -48,7 +44,7 @@ const HomePage = (props) => {
   };
 
   return (
-    <MDBContainer style={HomePageStyles} className="homepage">
+    <MDBContainer className="homepage">
       <MDBRow>
         <MDBCol md="6">
           <MDBCard>

@@ -14,10 +14,7 @@ import {
   createUserProfileDocument,
 } from "./../firebase/firebase.utils.jsx";
 
-const SignUpStyles = {
-  marginTop: "150px",
-  marginLeft: "450px",
-};
+import "./signup.styles.css";
 
 const SignUp = (props) => {
   const [userDetails, setUserDetails] = useState({
@@ -68,7 +65,7 @@ const SignUp = (props) => {
   };
 
   return (
-    <MDBContainer style={SignUpStyles}>
+    <MDBContainer className="signup">
       <MDBRow>
         <MDBCol md="6">
           <MDBCard>

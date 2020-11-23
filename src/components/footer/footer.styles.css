@@ -1,0 +1,21 @@
+.footer {
+	width: 100%;
+}
+
+@media screen and (max-width: 499px) {
+	.footer {
+		width: 100vw;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+	.footer {
+		width: 173vw;
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1499px) {
+	.footer {
+		width: 100%;
+	}
+}

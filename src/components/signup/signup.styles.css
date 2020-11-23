@@ -1,30 +1,30 @@
-.homepage {
-	width: 100%;
-	height: 600px;
+.signup {
 	margin-top: 200px;
 	margin-left: 600px;
+	width: 100%;
+	height: 600px;
 }
 
 @media screen and (max-width: 499px) {
-	.homepage {
+	.signup {
 		width: 100vw;
-		height: 150vw;
+		height: 100%;
 		margin-left: 0;
 		margin-top: 80px;
 	}
 }
 
 @media screen and (min-width: 500px) and (max-width: 999px) {
-	.homepage {
+	.signup {
 		width: 100vw;
 		height: 150vw;
-		margin-left: 50vw;
+		margin-left: 65vw;
 		margin-top: 410px;
 	}
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1499px) {
-	.homepage {
+	.signup {
 		height: 100vw;
 		margin-left: 275px;
 		margin-top: 400px;
